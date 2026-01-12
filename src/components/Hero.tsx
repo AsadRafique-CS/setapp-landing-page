@@ -3,7 +3,7 @@ import HeroImage from '../assets/images/Section-1.png';
 const Hero = () => {
   return (
     <section
-      className="min-h-screen pt-24 pb-16 mt-[69px] relative overflow-hidden bg-cover bg-center bg-no-repeat bg-[#26262B]"
+      className="min-h-screen pt-24 pb-16 mt-[64px] relative overflow-hidden bg-cover bg-center bg-no-repeat bg-[#26262B]"
       style={{ backgroundImage: `url(${HeroImage})` }}
     >
       <div className="max-w-7xl mx-auto px-6 relative h-full">
@@ -37,7 +37,7 @@ const Hero = () => {
       {/* Bottom Divider Line */}
       <div className="absolute bottom-0 left-0 right-0">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="w-full h-px bg-gray-600"></div>
+          <div className="w-full h-px  bg-[#E5E5E5]"></div>
         </div>
       </div>
     </section>

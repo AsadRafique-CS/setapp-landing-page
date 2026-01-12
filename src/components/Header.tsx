@@ -5,7 +5,7 @@ const Header = () => {
     <header className="bg-[#26262B] py-4 px-6 fixed top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center w-[33%]">
           <img src={Logo} alt="Setapp Logo" className="h-6" />
         </div>
 
@@ -29,7 +29,7 @@ const Header = () => {
             </button>
           </div>
           <a href="#" className="text-white text-sm hover:text-gray-300 transition-colors">Sign In</a>
-          <button className="bg-transparent border border-white text-white px-4 py-2 rounded-full text-sm hover:bg-white hover:text-[#1e1e2e] transition-colors">
+          <button className="bg-transparent border border-white text-white text-sm hover:bg-white hover:text-[#1e1e2e] transition-colors rounded-[6px] py-[6px] px-[23px]">
             Try free
           </button>
         </div>

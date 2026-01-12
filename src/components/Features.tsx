@@ -49,7 +49,7 @@ const Features = () => {
         {/* View all superpowers link */}
         <div className="flex justify-center mt-12">
           <a href="#" className="flex items-center gap-2 text-white font-medium hover:underline">
-            <span>→</span>
+            <span className="text-[31px] font-bold">→</span>
             <span>View all superpowers</span>
           </a>
         </div>
